@@ -1,0 +1,1697 @@
+{
+    "9.4_drop_0": [
+        "pick up the beaker",
+        "pick up the iron ring",
+        "pick up the glass funnel",
+        "place the glass funnel down"
+    ],
+    "9.3_1": [
+        "grab the iron ring",
+        "secure the iron ring",
+        "grab the glass funnel",
+        "place the glass funnel down",
+        "grab the filter paper",
+        "fold the filter paper",
+        "place the filter paper down",
+        "set down the beaker"
+    ],
+    "12.1_2": [
+        "lift the test tube",
+        "squeeze the wash bottle",
+        "place the wash bottle down",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull out the test tube brush",
+        "put down the test tube brush",
+        "pour out the test tube",
+        "set down the test tube"
+    ],
+    "10.4_drop_2": [
+        "lift the separating funnel",
+        "lower the separating funnel",
+        "fasten the iron ring",
+        "insert the upper piston"
+    ],
+    "1.4": [
+        "take up the iron clamp",
+        "screw the iron clamp",
+        "take up the conical flask",
+        "take up the test tube",
+        "screw the iron clamp"
+    ],
+    "9.4_1": [
+        "grab the beaker",
+        "place the beaker down",
+        "grab the iron ring",
+        "grab the glass funnel",
+        "put down the glass funnel"
+    ],
+    "9.3_drop": [
+        "take up the iron ring",
+        "screw the iron ring",
+        "take up the glass funnel",
+        "put down the glass funnel",
+        "take up the filter paper",
+        "fold the filter paper",
+        "put down the filter paper"
+    ],
+    "9.3_drop_2": [
+        "lift the iron ring",
+        "fasten the iron ring",
+        "lift the glass funnel",
+        "lower the glass funnel",
+        "lift the filter paper",
+        "fold over the filter paper",
+        "lower the filter paper"
+    ],
+    "1.4_drop": [
+        "take up the iron clamp",
+        "screw the iron clamp",
+        "take up the conical flask",
+        "screw the iron clamp"
+    ],
+    "5.5_drop_0": [
+        "pick up the mortar",
+        "mix with the pestle",
+        "pick up the reagent bottle",
+        "tighten the reagent bottle cap",
+        "tighten the reagent bottle cap",
+        "place down the reagent bottle",
+        "grab the glass rod",
+        "take up the beaker",
+        "stir with the glass rod",
+        "set down the glass rod",
+        "set down the beaker"
+    ],
+    "5.5_2": [
+        "lift the mortar",
+        "stir with the pestle",
+        "lift the reagent bottle",
+        "screw on the reagent bottle cap",
+        "pour from the reagent bottle",
+        "screw the reagent bottle cap",
+        "lower the reagent bottle",
+        "take the glass rod",
+        "take the beaker",
+        "stir with the glass rod",
+        "set down the glass rod",
+        "set down the beaker"
+    ],
+    "8.5_drop": [
+        "take up the test paper",
+        "tear the test paper",
+        "put down the test paper",
+        "take up the glass rod",
+        "point the glass rod to evaporating dish",
+        "point the glass rod to test paper",
+        "take up the tweezer",
+        "clamp the tweezer",
+        "put down the test paper",
+        "put down the tweezer",
+        "take up the glass rod",
+        "point the glass rod to evaporating dish",
+        "point the glass rod to test paper",
+        "put down the glass rod"
+    ],
+    "5.5_drop": [
+        "take up the mortar",
+        "stir the pestle",
+        "take up the reagent bottle",
+        "screw the reagent bottle cap",
+        "screw the reagent bottle cap",
+        "put down the reagent bottle",
+        "take up the glass rod",
+        "take up the beaker",
+        "stir the glass rod",
+        "put down the glass rod",
+        "put down the beaker"
+    ],
+    "1.4_drop_1": [
+        "grab the iron clamp",
+        "secure the iron clamp",
+        "grab the conical flask",
+        "secure the iron clamp"
+    ],
+    "9.4_drop_1": [
+        "grab the beaker",
+        "grab the iron ring",
+        "grab the glass funnel",
+        "set down the glass funnel"
+    ],
+    "12.1_drop_2": [
+        "lift the test tube",
+        "press the wash bottle",
+        "put the wash bottle down",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "set down the test tube brush",
+        "pour out the test tube",
+        "set down the test tube"
+    ],
+    "14.4_drop_3": [
+        "lift the wash bottle",
+        "set down the wash bottle",
+        "pick up the injector",
+        "pull out the injector",
+        "set down the injector"
+    ],
+    "12.1_drop_1": [
+        "grab the test tube",
+        "squeeze the wash bottle",
+        "lower the wash bottle",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "place the test tube brush down",
+        "pour out the test tube",
+        "set down the test tube"
+    ],
+    "5.5_0": [
+        "pick up the mortar",
+        "stir the pestle",
+        "pick up the reagent bottle",
+        "screw the reagent bottle cap",
+        "pour from the reagent bottle",
+        "screw the reagent bottle cap",
+        "set down the reagent bottle",
+        "take up the glass rod",
+        "take up the beaker",
+        "stir with the glass rod",
+        "set down the glass rod",
+        "set down the beaker"
+    ],
+    "8.4_2": [
+        "lift the test paper",
+        "lower the test paper",
+        "lift the glass rod",
+        "aim the glass rod at the evaporating dish",
+        "aim the glass rod at the test paper",
+        "lower the glass rod",
+        "secure the tweezer",
+        "lower the test paper",
+        "lower the tweezer"
+    ],
+    "14.4": [
+        "take up the wash bottle",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "take up the injector",
+        "pull the injector",
+        "put down the injector"
+    ],
+    "10.4_drop_0": [
+        "pick up the separating funnel",
+        "place down the separating funnel",
+        "tighten the iron ring",
+        "insert the upper piston"
+    ],
+    "8.5_0": [
+        "pick up the test paper",
+        "rip the test paper",
+        "set down the test paper",
+        "set down the test paper"
+    ],
+    "10.4_0": [
+        "pick up the iron ring",
+        "pick up the separating funnel",
+        "place the separating funnel down",
+        "tighten the iron ring",
+        "insert the upper piston"
+    ],
+    "12.1_1": [
+        "grab the test tube",
+        "press the wash bottle",
+        "set down the wash bottle",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "extract the test tube brush",
+        "set down the test tube brush",
+        "empty the test tube",
+        "set down the test tube"
+    ],
+    "8.4_drop_2": [
+        "lift the test paper",
+        "take the glass rod",
+        "aim the glass rod towards the evaporating dish",
+        "aim the glass rod towards the test paper",
+        "put down the glass rod",
+        "fasten the tweezer",
+        "place the test paper down",
+        "place the tweezer down"
+    ],
+    "8.4_1": [
+        "grab the test paper",
+        "place the test paper down",
+        "grab the glass rod",
+        "aim the glass rod at the evaporating dish",
+        "aim the glass rod at the test paper",
+        "place the glass rod down",
+        "clamp the tweezer",
+        "place the test paper down",
+        "place the tweezer down"
+    ],
+    "9.4_3": [
+        "lift the beaker",
+        "set down the beaker",
+        "pick up the iron ring",
+        "pick up the glass funnel",
+        "set down the glass funnel"
+    ],
+    "9.3_drop_3": [
+        "lift the iron ring",
+        "tighten the iron ring",
+        "pick up the glass funnel",
+        "put down the glass funnel",
+        "pick up the filter paper",
+        "fold the filter paper",
+        "put down the filter paper"
+    ],
+    "9.3_3": [
+        "lift the iron ring",
+        "tighten the iron ring",
+        "pick up the glass funnel",
+        "set down the glass funnel",
+        "pick up the filter paper",
+        "fold the filter paper",
+        "set down the filter paper",
+        "set down the beaker"
+    ],
+    "14.4_1": [
+        "grab the wash bottle",
+        "compress the wash bottle",
+        "place the wash bottle down",
+        "grab the injector",
+        "yank the injector",
+        "place the injector down"
+    ],
+    "8.5_1": [
+        "grab the glass rod",
+        "direct the glass rod towards the evaporating dish",
+        "aim the glass rod at the test paper",
+        "pick up the tweezer"
+    ],
+    "14.4_3": [
+        "lift the wash bottle",
+        "press the wash bottle",
+        "set down the wash bottle",
+        "pick up the injector",
+        "pull the injector",
+        "set down the injector"
+    ],
+    "8.5_drop_0": [
+        "pick up the test paper",
+        "rip the test paper",
+        "set down the test paper"
+    ],
+    "10.4_3": [
+        "lift the iron ring",
+        "pick up the separating funnel",
+        "put down the separating funnel",
+        "tighten the iron ring",
+        "insert the upper piston"
+    ],
+    "14.4_0": [
+        "pick up the wash bottle",
+        "press the wash bottle",
+        "set down the wash bottle",
+        "pick up the injector",
+        "pull the injector",
+        "set down the injector"
+    ],
+    "14.4_drop_0": [
+        "pick up the wash bottle",
+        "set down the wash bottle",
+        "pick up the injector",
+        "withdraw the injector",
+        "set down the injector"
+    ],
+    "9.4_drop_2": [
+        "lift the beaker",
+        "lift the iron ring",
+        "lift the glass funnel",
+        "put the glass funnel down"
+    ],
+    "5.5_1": [
+        "grab the mortar",
+        "mix with the pestle",
+        "grab the reagent bottle",
+        "tighten the reagent bottle cap",
+        "empty the reagent bottle",
+        "tighten the reagent bottle cap",
+        "place the reagent bottle down",
+        "take the glass rod",
+        "take the beaker",
+        "stir using the glass rod",
+        "place the glass rod down",
+        "put down the beaker"
+    ],
+    "9.3_drop_1": [
+        "grab the iron ring",
+        "secure the iron ring",
+        "grab the glass funnel",
+        "place the glass funnel down",
+        "grab the filter paper",
+        "fold the filter paper",
+        "place the filter paper down"
+    ],
+    "9.4_2": [
+        "lift the beaker",
+        "lower the beaker",
+        "lift the iron ring",
+        "lift the glass funnel",
+        "lower the glass funnel"
+    ],
+    "9.4_drop_3": [
+        "take the beaker",
+        "take the iron ring",
+        "take the glass funnel",
+        "set the glass funnel down"
+    ],
+    "10.4_2": [
+        "lift the iron ring",
+        "take the separating funnel",
+        "lower the separating funnel",
+        "fasten the iron ring",
+        "insert the upper piston"
+    ],
+    "8.4_0": [
+        "pick up the test paper",
+        "set aside the test paper",
+        "pick up the glass rod",
+        "direct the glass rod towards the evaporating dish",
+        "direct the glass rod towards the test paper",
+        "set down the glass rod",
+        "secure the tweezer",
+        "set aside the test paper",
+        "set aside the tweezer"
+    ],
+    "10.4_drop": [
+        "take up the separating funnel",
+        "put down the separating funnel",
+        "screw the iron ring",
+        "insert the upper piston"
+    ],
+    "9.3": [
+        "take up the iron ring",
+        "screw the iron ring",
+        "take up the glass funnel",
+        "put down the glass funnel",
+        "take up the filter paper",
+        "fold the filter paper",
+        "put down the filter paper",
+        "put down the beaker"
+    ],
+    "8.5": [
+        "take up the test paper",
+        "tear the test paper",
+        "put down the test paper",
+        "put down the test paper",
+        "take up the glass rod",
+        "point the glass rod to evaporating dish",
+        "point the glass rod to test paper",
+        "take up the tweezer",
+        "clamp the tweezer",
+        "put down the test paper",
+        "put down the tweezer",
+        "take up the glass rod",
+        "point the glass rod to evaporating dish",
+        "point the glass rod to test paper",
+        "put down the glass rod"
+    ],
+    "14.4_drop_2": [
+        "lift the wash bottle",
+        "place the wash bottle",
+        "lift the injector",
+        "remove the injector",
+        "place the injector"
+    ],
+    "9.4_0": [
+        "pick up the beaker",
+        "set down the beaker",
+        "pick up the iron ring",
+        "pick up the glass funnel",
+        "set down the glass funnel"
+    ],
+    "9.3_drop_0": [
+        "pick up the iron ring",
+        "tighten the iron ring",
+        "pick up the glass funnel",
+        "set down the glass funnel",
+        "pick up the filter paper",
+        "crease the filter paper",
+        "set down the filter paper"
+    ],
+    "9.3_2": [
+        "lift the iron ring",
+        "fasten the iron ring",
+        "lift the glass funnel",
+        "place the glass funnel aside",
+        "lift the filter paper",
+        "fold the filter paper",
+        "place the filter paper down",
+        "set down the beaker"
+    ],
+    "1.4_drop_0": [
+        "pick up the iron clamp",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "tighten the iron clamp"
+    ],
+    "12.1": [
+        "take up the test tube",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "put down the test tube brush",
+        "pour the test tube",
+        "put down the test tube"
+    ],
+    "10.4_drop_1": [
+        "grab the separating funnel",
+        "set down the separating funnel",
+        "secure the iron ring",
+        "insert the upper piston"
+    ],
+    "8.5_drop_1": [
+        "grab the glass rod",
+        "direct the glass rod towards the evaporating dish",
+        "aim the glass rod at the test paper"
+    ],
+    "12.1_3": [
+        "pick up the test tube",
+        "compress the wash bottle",
+        "lower the wash bottle",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull back the test tube brush",
+        "set down the test tube brush",
+        "empty the test tube",
+        "lower the test tube"
+    ],
+    "1.4_2": [
+        "lift the iron clamp",
+        "fasten the iron clamp",
+        "lift the conical flask",
+        "lift the test tube",
+        "fasten the iron clamp"
+    ],
+    "8.4": [
+        "take up the test paper",
+        "put down the test paper",
+        "take up the glass rod",
+        "point the glass rod to evaporating dish",
+        "point the glass rod to test paper",
+        "put down the glass rod",
+        "clamp the tweezer",
+        "put down the test paper",
+        "put down the tweezer"
+    ],
+    "8.4_3": [
+        "pick up the test paper",
+        "put the test paper down",
+        "pick up the glass rod",
+        "aim the glass rod towards the evaporating dish",
+        "aim the glass rod towards the test paper",
+        "put down the glass rod",
+        "clamp the tweezer",
+        "put the test paper down",
+        "put the tweezer down"
+    ],
+    "8.4_drop_3": [
+        "pick up the test paper",
+        "take the glass rod",
+        "point the glass rod at the evaporating dish",
+        "point the glass rod at the test paper",
+        "set down the glass rod",
+        "clamp the tweezer",
+        "set down the test paper",
+        "set down the tweezer"
+    ],
+    "8.5_3": [
+        "lift the glass rod",
+        "aim the glass rod at the evaporating dish",
+        "point the glass rod at the test paper",
+        "set down the glass rod"
+    ],
+    "8.4_drop_0": [
+        "pick up the test paper",
+        "pick up the glass rod",
+        "direct the glass rod towards the evaporating dish",
+        "direct the glass rod towards the test paper",
+        "place the glass rod down",
+        "secure the tweezer",
+        "set down the test paper",
+        "set down the tweezer"
+    ],
+    "12.1_drop_0": [
+        "pick up the test tube",
+        "compress the wash bottle",
+        "place the wash bottle down",
+        "take up the test tube brush",
+        "press the test tube brush",
+        "set down the test tube brush",
+        "empty the test tube",
+        "set down the test tube"
+    ],
+    "10.4_drop_3": [
+        "lift the separating funnel",
+        "put down the separating funnel",
+        "tighten the iron ring",
+        "insert the upper piston"
+    ],
+    "1.4_1": [
+        "grab the iron clamp",
+        "secure the iron clamp",
+        "grab the conical flask",
+        "grab the test tube",
+        "secure the iron clamp"
+    ],
+    "12.1_drop_3": [
+        "pick up the test tube",
+        "compress the wash bottle",
+        "place the wash bottle down",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "set down the test tube brush",
+        "empty the test tube",
+        "set down the test tube"
+    ],
+    "9.3_0": [
+        "pick up the iron ring",
+        "tighten the iron ring",
+        "pick up the glass funnel",
+        "set aside the glass funnel",
+        "pick up the filter paper",
+        "crease the filter paper",
+        "set aside the filter paper",
+        "set down the beaker"
+    ],
+    "5.5_3": [
+        "pick up the mortar",
+        "mix with the pestle",
+        "pick up the reagent bottle",
+        "screw on the reagent bottle cap",
+        "pour from the reagent bottle",
+        "screw the reagent bottle cap",
+        "place the reagent bottle down",
+        "take the glass rod",
+        "take the beaker",
+        "stir with the glass rod",
+        "set down the glass rod",
+        "set down the beaker"
+    ],
+    "9.4_drop": [
+        "take up the beaker",
+        "take up the iron ring",
+        "take up the glass funnel",
+        "put down the glass funnel"
+    ],
+    "5.5_drop_2": [
+        "grab the mortar",
+        "stir with the pestle",
+        "pick up the reagent bottle",
+        "tighten the reagent bottle cap",
+        "tighten the reagent bottle cap",
+        "put down the reagent bottle",
+        "take up the glass rod",
+        "take up the beaker",
+        "stir with the glass rod",
+        "set down the glass rod",
+        "set down the beaker"
+    ],
+    "5.5_drop_3": [
+        "pick up the mortar",
+        "mix with the pestle",
+        "take up the reagent bottle",
+        "tighten the reagent bottle cap",
+        "tighten the reagent bottle cap",
+        "place down the reagent bottle",
+        "grab the glass rod",
+        "take up the beaker",
+        "stir with the glass rod",
+        "set down the glass rod",
+        "set down the beaker"
+    ],
+    "5.5": [
+        "take up the mortar",
+        "stir the pestle",
+        "take up the reagent bottle",
+        "screw the reagent bottle cap",
+        "pour the reagent bottle",
+        "screw the reagent bottle cap",
+        "put down the reagent bottle",
+        "take up the glass rod",
+        "take up the beaker",
+        "stir the glass rod",
+        "put down the glass rod",
+        "put down the beaker"
+    ],
+    "12.1_0": [
+        "pick up the test tube",
+        "compress the wash bottle",
+        "lower the wash bottle",
+        "take up the test tube brush",
+        "press the test tube brush",
+        "withdraw the test tube brush",
+        "lower the test tube brush",
+        "empty the test tube",
+        "lower the test tube"
+    ],
+    "8.5_2": [
+        "lift the test paper",
+        "position the glass rod towards the evaporating dish",
+        "direct the glass rod at the test paper",
+        "place the tweezer down"
+    ],
+    "10.4": [
+        "take up the iron ring",
+        "take up the separating funnel",
+        "put down the separating funnel",
+        "screw the iron ring",
+        "insert the upper piston"
+    ],
+    "9.4": [
+        "take up the beaker",
+        "put down the beaker",
+        "take up the iron ring",
+        "take up the glass funnel",
+        "put down the glass funnel"
+    ],
+    "1.4_0": [
+        "pick up the iron clamp",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "pick up the test tube",
+        "tighten the iron clamp"
+    ],
+    "14.4_2": [
+        "lift the wash bottle",
+        "squeeze the wash bottle",
+        "lower the wash bottle",
+        "lift the injector",
+        "pull the injector",
+        "lower the injector"
+    ],
+    "1.4_drop_2": [
+        "lift the iron clamp",
+        "fasten the iron clamp",
+        "lift the conical flask",
+        "fasten the iron clamp"
+    ],
+    "8.4_drop_1": [
+        "grab the test paper",
+        "take the glass rod",
+        "aim the glass rod at the evaporating dish",
+        "aim the glass rod at the test paper",
+        "lower the glass rod",
+        "clamp the tweezer",
+        "lower the test paper",
+        "lower the tweezer"
+    ],
+    "10.4_1": [
+        "grab the iron ring",
+        "grab the separating funnel",
+        "set down the separating funnel",
+        "secure the iron ring",
+        "insert the upper piston"
+    ],
+    "14.4_drop": [
+        "take up the wash bottle",
+        "put down the wash bottle",
+        "take up the injector",
+        "pull the injector",
+        "put down the injector"
+    ],
+    "12.1_drop": [
+        "take up the test tube",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "put down the test tube brush",
+        "pour the test tube",
+        "put down the test tube"
+    ],
+    "5.5_drop_1": [
+        "lift the mortar",
+        "stir using the pestle",
+        "take up the reagent bottle",
+        "fasten the reagent bottle cap",
+        "fasten the reagent bottle cap",
+        "lower the reagent bottle",
+        "grab the glass rod",
+        "pick up the beaker",
+        "mix with the glass rod",
+        "place down the glass rod",
+        "place down the beaker"
+    ],
+    "8.5_drop_3": [
+        "lift the glass rod",
+        "position the glass rod towards the evaporating dish",
+        "direct the glass rod at the test paper"
+    ],
+    "14.4_drop_1": [
+        "grab the wash bottle",
+        "place the wash bottle down",
+        "grab the injector",
+        "extract the injector",
+        "place the injector down"
+    ],
+    "8.5_drop_2": [
+        "take the tweezer",
+        "clamp the tweezer",
+        "place the test paper down"
+    ],
+    "1.4_drop_3": [
+        "lift the iron clamp",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "tighten the iron clamp"
+    ],
+    "8.4_drop": [
+        "take up the test paper",
+        "take up the glass rod",
+        "point the glass rod to evaporating dish",
+        "point the glass rod to test paper",
+        "put down the glass rod",
+        "clamp the tweezer",
+        "put down the test paper",
+        "put down the tweezer"
+    ],
+    "1.4_3": [
+        "lift the iron clamp",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "pick up the test tube",
+        "tighten the iron clamp"
+    ],
+    "4.3_0": [
+        "pick up the test tube",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "put down the conical flask",
+        "tighten the iron clamp",
+        "pick up the horn tube",
+        "place the horn tube"
+    ],
+    "4.3_2": [
+        "lift the test tube",
+        "take up the conical flask",
+        "pour from the conical flask",
+        "lower the conical flask",
+        "fasten the iron clamp",
+        "lift the horn tube",
+        "insert the horn tube"
+    ],
+    "4.1_0": [
+        "pick up the test tube",
+        "tighten the iron clamp",
+        "pick up the horn tube",
+        "insert the horn tube",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "put down the conical flask"
+    ],
+    "4.5": [
+        "take up the test tube",
+        "screw the iron clamp",
+        "take up the horn tube",
+        "insert the horn tube",
+        "take up the alcohol burner",
+        "uncover the alcohol burner",
+        "put down the alcohol burner",
+        "put down the alcohol burner cap",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask",
+        "take up the alcohol burner cap",
+        "cover the alcohol burner with the alcohol burner cap"
+    ],
+    "4.3_1": [
+        "grab the test tube",
+        "lift the conical flask",
+        "empty the conical flask",
+        "set down the conical flask",
+        "secure the iron clamp",
+        "grab the horn tube",
+        "position the horn tube"
+    ],
+    "4.1_2": [
+        "lift the test tube",
+        "fasten the iron clamp",
+        "lift the horn tube",
+        "introduce the horn tube",
+        "lift the conical flask",
+        "empty the conical flask",
+        "lower the conical flask"
+    ],
+    "4.1": [
+        "take up the test tube",
+        "screw the iron clamp",
+        "take up the horn tube",
+        "insert the horn tube",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask"
+    ],
+    "4.3": [
+        "take up the test tube",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask",
+        "screw the iron clamp",
+        "take up the horn tube",
+        "insert the horn tube"
+    ],
+    "4.5_0": [
+        "pick up the test tube",
+        "tighten the iron clamp",
+        "pick up the horn tube",
+        "insert the horn tube",
+        "pick up the alcohol burner",
+        "remove the alcohol burner cover",
+        "set down the alcohol burner",
+        "place the alcohol burner cap down",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "set down the conical flask",
+        "pick up the alcohol burner cap",
+        "cover the alcohol burner with the cap"
+    ],
+    "4.2_1": [
+        "grab the test tube",
+        "grab the horn tube",
+        "position the horn tube",
+        "secure the iron clamp",
+        "grab the conical flask",
+        "pour from the conical flask",
+        "set down the conical flask"
+    ],
+    "4.2": [
+        "take up the test tube",
+        "take up the horn tube",
+        "insert the horn tube",
+        "screw the iron clamp",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask"
+    ],
+    "4.4_0": [
+        "pick up the test tube",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "put down the conical flask"
+    ],
+    "4.2_2": [
+        "lift the test tube",
+        "lift the horn tube",
+        "insert the horn tube",
+        "fasten the iron clamp",
+        "lift the conical flask",
+        "empty the conical flask",
+        "lower the conical flask"
+    ],
+    "4.4": [
+        "take up the test tube",
+        "screw the iron clamp",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask"
+    ],
+    "4.2_0": [
+        "pick up the test tube",
+        "pick up the horn tube",
+        "place the horn tube",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "set down the conical flask"
+    ],
+    "9.4_ns_1": [
+        "take up the beaker",
+        "put down the beaker",
+        "take up the iron ring",
+        "put down the glass funnel",
+        "take up the glass funnel",
+        "screw the iron ring"
+    ],
+    "11.4_2": [
+        "rotate the knob",
+        "take the rubber stopper",
+        "put the rubber stopper down",
+        "grab the tweezer",
+        "use the tweezer to hold",
+        "lower the weight",
+        "release the tweezer"
+    ],
+    "12.3_3": [
+        "pick up the test tube",
+        "take up the wash bottle",
+        "compress the wash bottle",
+        "set down the wash bottle",
+        "pour from the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "set down the test tube brush",
+        "place the test tube down"
+    ],
+    "12.3": [
+        "take up the test tube",
+        "take up the wash bottle",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "pour the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "put down the test tube brush",
+        "put down the test tube"
+    ],
+    "7.5": [
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "move the alcohol burner",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap",
+        "move the alcohol burner"
+    ],
+    "12.3_ns_5": [
+        "take up the wash bottle",
+        "take up the test tube",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "pour the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "put down the test tube brush",
+        "put down the test tube"
+    ],
+    "13.4_0": [
+        "remove the alcohol burner cover",
+        "place the alcohol burner cap down",
+        "pick up the test tube",
+        "set aside the medicine spoon",
+        "grab the test tube clamp",
+        "secure the test tube clamp",
+        "agitate the test tube clamp",
+        "set the test tube clamp down"
+    ],
+    "12.3_ns_4": [
+        "take up the test tube",
+        "take up the wash bottle",
+        "put down the test tube",
+        "put down the wash bottle",
+        "pour the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "put down the test tube brush",
+        "squeeze the wash bottle"
+    ],
+    "3.3_ns_5": [
+        "take up the test tube",
+        "cover the dropper bottle with the dropper",
+        "put down the test tube",
+        "take up the dropper bottle",
+        "uncover the dropper bottle",
+        "squeeze the dropper",
+        "shake the test tube",
+        "put down the dropper bottle"
+    ],
+    "10.4_ns_2": [
+        "put down the separating funnel",
+        "take up the separating funnel",
+        "take up the iron ring",
+        "screw the iron ring",
+        "insert the upper piston",
+        "screw the lower piston"
+    ],
+    "13.4_ns_2": [
+        "put down the alcohol burner cap",
+        "uncover the alcohol burner",
+        "take up the test tube",
+        "put down the medicine spoon",
+        "take up the test tube clamp",
+        "clamp the test tube clamp",
+        "shake the test tube clamp",
+        "pour the test tube clamp",
+        "put down the test tube clamp"
+    ],
+    "11.4_ns_3": [
+        "screw the knob",
+        "take up the tweezer",
+        "put down the rubber stopper",
+        "take up the rubber stopper",
+        "clamp the tweezer",
+        "put down the weight",
+        "put down the tweezer"
+    ],
+    "9.4_ns_5": [
+        "take up the beaker",
+        "put down the beaker",
+        "put down the glass funnel",
+        "screw the iron ring",
+        "take up the glass funnel",
+        "take up the iron ring"
+    ],
+    "9.4_ns_2": [
+        "take up the iron ring",
+        "put down the beaker",
+        "take up the beaker",
+        "screw the iron ring",
+        "take up the glass funnel",
+        "put down the glass funnel"
+    ],
+    "13.4_ns_5": [
+        "uncover the alcohol burner",
+        "put down the alcohol burner cap",
+        "pour the test tube clamp",
+        "put down the medicine spoon",
+        "take up the test tube clamp",
+        "clamp the test tube clamp",
+        "shake the test tube clamp",
+        "take up the test tube",
+        "put down the test tube clamp"
+    ],
+    "13.4_ns_1": [
+        "uncover the alcohol burner",
+        "put down the alcohol burner cap",
+        "take up the test tube",
+        "put down the medicine spoon",
+        "take up the test tube clamp",
+        "pour the test tube clamp",
+        "shake the test tube clamp",
+        "clamp the test tube clamp",
+        "put down the test tube clamp"
+    ],
+    "7.3_1": [
+        "shift the alcohol burner",
+        "unveil the crucible",
+        "position the crucible cover",
+        "lift the crucible",
+        "lower the crucible",
+        "grasp the crucible tongs",
+        "attach the crucible tongs",
+        "lower the crucible",
+        "release the crucible tongs",
+        "pick up the crucible cover",
+        "place the crucible cap over the crucible"
+    ],
+    "9.4_ns_4": [
+        "take up the beaker",
+        "screw the iron ring",
+        "take up the iron ring",
+        "put down the beaker",
+        "take up the glass funnel",
+        "put down the glass funnel"
+    ],
+    "7.5_ns_3": [
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "clamp the crucible tong",
+        "move the alcohol burner",
+        "take up the crucible tong",
+        "put down the crucible",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap",
+        "move the alcohol burner"
+    ],
+    "3.3_2": [
+        "lift the test tube",
+        "shake the test tube",
+        "lower the test tube",
+        "take up the dropper bottle",
+        "unveil the dropper bottle",
+        "squirt the dropper",
+        "put the dropper bottle cap back on",
+        "set down the dropper bottle"
+    ],
+    "10.4_ns_1": [
+        "take up the separating funnel",
+        "take up the iron ring",
+        "put down the separating funnel",
+        "screw the iron ring",
+        "insert the upper piston",
+        "screw the lower piston"
+    ],
+    "13.4": [
+        "uncover the alcohol burner",
+        "put down the alcohol burner cap",
+        "take up the test tube",
+        "put down the medicine spoon",
+        "take up the test tube clamp",
+        "clamp the test tube clamp",
+        "shake the test tube clamp",
+        "put down the test tube clamp"
+    ],
+    "7.3_0": [
+        "relocate the alcohol burner",
+        "reveal the crucible",
+        "place the crucible lid",
+        "pick up the crucible",
+        "set down the crucible",
+        "take up the crucible tongs",
+        "secure the crucible tongs",
+        "set down the crucible",
+        "release the crucible tongs",
+        "pick up the crucible lid",
+        "cover the crucible using the crucible cap"
+    ],
+    "11.4_ns_5": [
+        "put down the tweezer",
+        "take up the rubber stopper",
+        "put down the rubber stopper",
+        "take up the tweezer",
+        "clamp the tweezer",
+        "put down the weight",
+        "screw the knob"
+    ],
+    "10.4_ns_4": [
+        "take up the iron ring",
+        "take up the separating funnel",
+        "put down the separating funnel",
+        "insert the upper piston",
+        "screw the iron ring",
+        "screw the lower piston"
+    ],
+    "12.3_ns_2": [
+        "put down the test tube brush",
+        "take up the wash bottle",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "pour the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "take up the test tube",
+        "put down the test tube"
+    ],
+    "3.3_ns_3": [
+        "put down the dropper bottle",
+        "shake the test tube",
+        "put down the test tube",
+        "take up the dropper bottle",
+        "uncover the dropper bottle",
+        "squeeze the dropper",
+        "cover the dropper bottle with the dropper",
+        "take up the test tube"
+    ],
+    "3.3_1": [
+        "grab the test tube",
+        "shake the test tube",
+        "set the test tube down",
+        "take up the dropper bottle",
+        "reveal the dropper bottle",
+        "press the dropper",
+        "cover the dropper bottle with the cap",
+        "put down the dropper bottle"
+    ],
+    "3.3_ns_1": [
+        "take up the test tube",
+        "shake the test tube",
+        "put down the test tube",
+        "uncover the dropper bottle",
+        "take up the dropper bottle",
+        "squeeze the dropper",
+        "cover the dropper bottle with the dropper",
+        "put down the dropper bottle"
+    ],
+    "12.3_2": [
+        "lift the test tube",
+        "take up the wash bottle",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "pour from the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull back the test tube brush",
+        "place the test tube brush down",
+        "set down the test tube"
+    ],
+    "7.3_ns_3": [
+        "put down the crucible tong",
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "move the alcohol burner",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap"
+    ],
+    "7.5_ns_1": [
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "move the alcohol burner",
+        "clamp the crucible tong",
+        "take up the crucible tong",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap",
+        "move the alcohol burner"
+    ],
+    "7.5_ns_4": [
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible cap",
+        "put down the crucible",
+        "move the alcohol burner",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible",
+        "cover the crucible with the crucible cap",
+        "move the alcohol burner"
+    ],
+    "11.4": [
+        "screw the knob",
+        "take up the rubber stopper",
+        "put down the rubber stopper",
+        "take up the tweezer",
+        "clamp the tweezer",
+        "put down the weight",
+        "put down the tweezer"
+    ],
+    "7.3_ns_1": [
+        "move the alcohol burner",
+        "uncover the crucible",
+        "clamp the crucible tong",
+        "take up the crucible",
+        "put down the crucible",
+        "take up the crucible tong",
+        "put the crucible cap",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap"
+    ],
+    "3.3_ns_4": [
+        "take up the test tube",
+        "shake the test tube",
+        "uncover the dropper bottle",
+        "take up the dropper bottle",
+        "put down the test tube",
+        "squeeze the dropper",
+        "cover the dropper bottle with the dropper",
+        "put down the dropper bottle"
+    ],
+    "9.4_ns_3": [
+        "put down the glass funnel",
+        "put down the beaker",
+        "take up the iron ring",
+        "screw the iron ring",
+        "take up the glass funnel",
+        "take up the beaker"
+    ],
+    "11.4_ns_2": [
+        "screw the knob",
+        "take up the rubber stopper",
+        "take up the tweezer",
+        "put down the rubber stopper",
+        "clamp the tweezer",
+        "put down the weight",
+        "put down the tweezer"
+    ],
+    "13.4_ns_3": [
+        "uncover the alcohol burner",
+        "put down the alcohol burner cap",
+        "take up the test tube",
+        "pour the test tube clamp",
+        "take up the test tube clamp",
+        "clamp the test tube clamp",
+        "shake the test tube clamp",
+        "put down the medicine spoon",
+        "put down the test tube clamp"
+    ],
+    "7.3_ns_5": [
+        "cover the crucible with the crucible cap",
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "move the alcohol burner"
+    ],
+    "7.3_2": [
+        "move the alcohol burner",
+        "expose the crucible",
+        "put on the crucible cap",
+        "take the crucible",
+        "set aside the crucible",
+        "take the crucible tongs",
+        "fix the crucible tongs",
+        "set aside the crucible",
+        "put away the crucible tongs",
+        "pick up the crucible cap",
+        "cover the crucible with the crucible cap"
+    ],
+    "12.3_0": [
+        "pick up the test tube",
+        "pick up the wash bottle",
+        "press the wash bottle",
+        "set down the wash bottle",
+        "pour out the test tube",
+        "take up the test tube brush",
+        "press the test tube brush",
+        "pull the test tube brush",
+        "set down the test tube brush",
+        "place the test tube down"
+    ],
+    "7.5_ns_2": [
+        "uncover the crucible",
+        "put down the crucible tong",
+        "take up the crucible",
+        "put down the crucible",
+        "move the alcohol burner",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "put the crucible cap",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap",
+        "move the alcohol burner"
+    ],
+    "3.3": [
+        "take up the test tube",
+        "shake the test tube",
+        "put down the test tube",
+        "take up the dropper bottle",
+        "uncover the dropper bottle",
+        "squeeze the dropper",
+        "cover the dropper bottle with the dropper",
+        "put down the dropper bottle"
+    ],
+    "7.3_3": [
+        "reposition the alcohol burner",
+        "uncover the crucible",
+        "attach the crucible cap",
+        "lift the crucible",
+        "place the crucible down",
+        "take the crucible tongs",
+        "secure the crucible tongs",
+        "place the crucible down",
+        "release the crucible tongs",
+        "pick up the crucible cap",
+        "cover the crucible using the crucible cap"
+    ],
+    "10.4_ns_5": [
+        "take up the iron ring",
+        "screw the iron ring",
+        "put down the separating funnel",
+        "take up the separating funnel",
+        "insert the upper piston",
+        "screw the lower piston"
+    ],
+    "7.3_ns_2": [
+        "move the alcohol burner",
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "take up the crucible tong",
+        "put down the crucible",
+        "clamp the crucible tong",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap"
+    ],
+    "3.3_ns_2": [
+        "squeeze the dropper",
+        "shake the test tube",
+        "put down the test tube",
+        "take up the dropper bottle",
+        "uncover the dropper bottle",
+        "take up the test tube",
+        "cover the dropper bottle with the dropper",
+        "put down the dropper bottle"
+    ],
+    "12.3_ns_1": [
+        "take up the wash bottle",
+        "take up the test tube",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "pour the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "put down the test tube brush",
+        "put down the test tube"
+    ],
+    "11.4_3": [
+        "tighten the knob",
+        "hold the rubber stopper",
+        "set the rubber stopper down",
+        "take the tweezer",
+        "secure with the tweezer",
+        "place the weight down",
+        "release the tweezer"
+    ],
+    "7.3_ns_4": [
+        "move the alcohol burner",
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "put down the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "take up the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap"
+    ],
+    "13.4_2": [
+        "reveal the alcohol burner",
+        "put aside the alcohol burner cap",
+        "take the test tube",
+        "set down the medicine spoon",
+        "grasp the test tube clamp",
+        "clamp the test tube clamp",
+        "wiggle the test tube clamp",
+        "place the test tube clamp down"
+    ],
+    "12.3_ns_3": [
+        "take up the test tube",
+        "take up the wash bottle",
+        "squeeze the wash bottle",
+        "put down the wash bottle",
+        "pour the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull the test tube brush",
+        "put down the test tube",
+        "put down the test tube brush"
+    ],
+    "7.5_2": [
+        "expose the crucible",
+        "set the crucible cap",
+        "raise the crucible",
+        "place the crucible down",
+        "reposition the alcohol burner",
+        "take the crucible tongs",
+        "secure the crucible tongs",
+        "lower the crucible",
+        "put away the crucible tongs",
+        "pick up the crucible cap",
+        "cover the crucible using the crucible cap",
+        "shift the alcohol burner"
+    ],
+    "7.5_0": [
+        "reveal the crucible",
+        "place the crucible lid",
+        "lift the crucible",
+        "set down the crucible",
+        "relocate the alcohol burner",
+        "pick up the crucible tongs",
+        "secure the crucible tongs",
+        "lower the crucible",
+        "release the crucible tongs",
+        "retrieve the crucible lid",
+        "cover the crucible using the crucible cap",
+        "shift the alcohol burner"
+    ],
+    "13.4_1": [
+        "unveil the alcohol burner",
+        "lay down the alcohol burner lid",
+        "lift the test tube",
+        "set aside the medicine spoon",
+        "take the test tube clamp",
+        "fasten the test tube clamp",
+        "jiggle the test tube clamp",
+        "put the test tube clamp down"
+    ],
+    "13.4_3": [
+        "uncover the alcohol burner",
+        "place the alcohol burner cap down",
+        "pick up the test tube",
+        "set down the medicine spoon",
+        "take the test tube clamp",
+        "secure the test tube clamp",
+        "shake the test tube clamp",
+        "put down the test tube clamp"
+    ],
+    "3.3_3": [
+        "pick up the test tube",
+        "agitate the test tube",
+        "place down the test tube",
+        "take up the dropper bottle",
+        "unveil the dropper bottle",
+        "compress the dropper",
+        "cover the dropper bottle with its cap",
+        "put down the dropper bottle"
+    ],
+    "7.3": [
+        "move the alcohol burner",
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap"
+    ],
+    "12.3_1": [
+        "grab the test tube",
+        "lift the wash bottle",
+        "compress the wash bottle",
+        "lower the wash bottle",
+        "empty the test tube",
+        "take up the test tube brush",
+        "push the test tube brush",
+        "pull out the test tube brush",
+        "set down the test tube brush",
+        "set down the test tube"
+    ],
+    "7.5_3": [
+        "uncover the crucible",
+        "put on the crucible lid",
+        "lift the crucible",
+        "set the crucible down",
+        "move the alcohol burner",
+        "take the crucible tongs",
+        "clamp the crucible tongs",
+        "lower the crucible",
+        "release the crucible tongs",
+        "pick up the crucible lid",
+        "cover the crucible with the crucible lid",
+        "relocate the alcohol burner"
+    ],
+    "7.5_ns_5": [
+        "uncover the crucible",
+        "put the crucible cap",
+        "take up the crucible",
+        "put down the crucible",
+        "move the alcohol burner",
+        "take up the crucible tong",
+        "clamp the crucible tong",
+        "put down the crucible",
+        "put down the crucible tong",
+        "take up the crucible cap",
+        "cover the crucible with the crucible cap",
+        "move the alcohol burner"
+    ],
+    "11.4_0": [
+        "turn the knob",
+        "pick up the rubber stopper",
+        "set down the rubber stopper",
+        "take up the tweezer",
+        "clamp with the tweezer",
+        "lower the weight",
+        "release the tweezer"
+    ],
+    "11.4_ns_4": [
+        "screw the knob",
+        "take up the rubber stopper",
+        "clamp the tweezer",
+        "take up the tweezer",
+        "put down the rubber stopper",
+        "put down the weight",
+        "put down the tweezer"
+    ],
+    "11.4_1": [
+        "twist the knob",
+        "lift the rubber stopper",
+        "place the rubber stopper down",
+        "pick up the tweezer",
+        "grip the tweezer",
+        "drop the weight",
+        "release the tweezer"
+    ],
+    "10.4_ns_3": [
+        "take up the iron ring",
+        "take up the separating funnel",
+        "insert the upper piston",
+        "screw the iron ring",
+        "put down the separating funnel",
+        "screw the lower piston"
+    ],
+    "3.3_0": [
+        "pick up the test tube",
+        "agitate the test tube",
+        "set down the test tube",
+        "take up the dropper bottle",
+        "remove the dropper bottle cap",
+        "compress the dropper",
+        "replace the dropper bottle cap",
+        "place the dropper bottle down"
+    ],
+    "11.4_ns_1": [
+        "screw the knob",
+        "take up the rubber stopper",
+        "put down the rubber stopper",
+        "take up the tweezer",
+        "put down the tweezer",
+        "put down the weight",
+        "clamp the tweezer"
+    ],
+    "13.4_ns_4": [
+        "uncover the alcohol burner",
+        "put down the alcohol burner cap",
+        "take up the test tube",
+        "put down the medicine spoon",
+        "take up the test tube clamp",
+        "clamp the test tube clamp",
+        "shake the test tube clamp",
+        "put down the test tube clamp",
+        "pour the test tube clamp"
+    ],
+    "7.5_1": [
+        "unveil the crucible",
+        "position the crucible cover",
+        "hoist the crucible",
+        "place the crucible",
+        "transfer the alcohol burner",
+        "grasp the crucible tongs",
+        "attach the crucible tongs",
+        "lower the crucible",
+        "put away the crucible tongs",
+        "take the crucible cover",
+        "place the crucible cap on the crucible",
+        "reposition the alcohol burner"
+    ]
+}

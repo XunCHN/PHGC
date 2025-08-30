@@ -1,0 +1,537 @@
+{
+    "P_03_5_drop_1": [
+        "brew tea",
+        "sip from the water bottle"
+    ],
+    "P_02_2_drop_0": [
+        "start vacuuming",
+        "wash hands/face"
+    ],
+    "P_08_6_drop_0": [
+        "Wipe hands/face dry",
+        "Tidy up the house"
+    ],
+    "P_04_1_0": [
+        "washing hands/face",
+        "brushing teeth",
+        "drying hands/face"
+    ],
+    "P_03_5_drop_2": [
+        "make tea",
+        "take a drink from the water bottle"
+    ],
+    "P_02_2_0": [
+        "start vacuuming",
+        "wash your hands/face",
+        "dry your hands/face"
+    ],
+    "P_04_4": [
+        "washing hands/face",
+        "washing dishes",
+        "drinking water/bottle"
+    ],
+    "P_15_5_drop_2": [
+        "have a meal/snack",
+        "rinse dishes"
+    ],
+    "P_14_6_3": [
+        "use the computer",
+        "brush the teeth",
+        "wash the hands/face"
+    ],
+    "P_14_6_0": [
+        "utilize the computer",
+        "cleanse the teeth",
+        "wash the hands/face"
+    ],
+    "P_11_1_2": [
+        "work on the computer",
+        "have a drink from the bottle",
+        "discard the trash"
+    ],
+    "P_03_5_1": [
+        "wipe your hands or face dry",
+        "brew some tea",
+        "sip water from a bottle"
+    ],
+    "P_11_1_0": [
+        "utilize the computer",
+        "sip water from the bottle",
+        "remove the trash"
+    ],
+    "P_04_1_drop_2": [
+        "Rinse hands and face",
+        "Brush teeth"
+    ],
+    "P_14_6": [
+        "using computer",
+        "brushing teeth",
+        "washing hands/face"
+    ],
+    "P_15_5_drop_1": [
+        "eat food/snack",
+        "wash dishes"
+    ],
+    "P_03_5_drop_0": [
+        "prepare tea",
+        "drink from the water bottle"
+    ],
+    "P_11_1_drop_0": [
+        "utilize the computer",
+        "drink water from the bottle"
+    ],
+    "P_14_6_drop_3": [
+        "using the computer",
+        "cleaning teeth"
+    ],
+    "P_15_5_0": [
+        "consume food/snack",
+        "eat food/snack",
+        "clean dishes"
+    ],
+    "P_02_2_drop_1": [
+        "begin vacuuming",
+        "wash hands/face"
+    ],
+    "P_03_5_drop_3": [
+        "brew some tea",
+        "have a sip from the water bottle"
+    ],
+    "P_04_4_drop_2": [
+        "Rinse hands and face",
+        "Rinse dishes"
+    ],
+    "P_14_6_drop_1": [
+        "operate the computer",
+        "brushing teeth"
+    ],
+    "P_11_1": [
+        "using computer",
+        "drinking water/bottle",
+        "take out the trash"
+    ],
+    "P_04_1": [
+        "washing hands/face",
+        "brushing teeth",
+        "drying hands/face"
+    ],
+    "P_03_5_2": [
+        "pat your hands or face dry",
+        "brew a cup of tea",
+        "take a drink from a bottle"
+    ],
+    "P_04_4_3": [
+        "scrub hands/face",
+        "scrub dishes",
+        "drink water/bottle"
+    ],
+    "P_14_6_drop_0": [
+        "utilize the computer",
+        "cleaning teeth"
+    ],
+    "P_11_1_drop_3": [
+        "work on the computer",
+        "have a sip from the bottle"
+    ],
+    "P_08_6_2": [
+        "wiping hands",
+        "scrubbing hands",
+        "tidying the house"
+    ],
+    "P_15_5_1": [
+        "consume food/snack",
+        "snack on food",
+        "wash dishes"
+    ],
+    "P_08_6_0": [
+        "drying hands",
+        "washing hands",
+        "cleaning house"
+    ],
+    "P_02_2_drop": [
+        "vacuuming",
+        "washing hands/face"
+    ],
+    "P_04_1_drop": [
+        "washing hands/face",
+        "brushing teeth"
+    ],
+    "P_04_1_drop_0": [
+        "Wash hands and face",
+        "Brush teeth"
+    ],
+    "P_02_2_3": [
+        "initiate vacuuming",
+        "scrub your hands/face",
+        "blot your hands/face"
+    ],
+    "P_08_6_1": [
+        "patting hands dry",
+        "cleansing hands",
+        "tidying up the house"
+    ],
+    "P_14_6_1": [
+        "operate the computer",
+        "brush the teeth",
+        "rinse the hands/face"
+    ],
+    "P_11_1_3": [
+        "use the computer",
+        "take a sip from the bottle",
+        "throw away the trash"
+    ],
+    "P_04_1_1": [
+        "cleaning hands/face",
+        "brushing teeth",
+        "drying hands/face"
+    ],
+    "P_08_6_drop": [
+        "drying hands/face",
+        "cleaning house"
+    ],
+    "P_04_4_drop_0": [
+        "Wash hands and face",
+        "Wash dishes"
+    ],
+    "P_04_4_1": [
+        "clean hands/face",
+        "clean dishes",
+        "drink water/bottle"
+    ],
+    "P_14_6_drop_2": [
+        "working on the computer",
+        "brushing teeth"
+    ],
+    "P_14_6_drop": [
+        "using computer",
+        "brushing teeth"
+    ],
+    "P_03_5_drop": [
+        "making tea",
+        "drinking water/bottle"
+    ],
+    "P_08_6_3": [
+        "air-drying hands",
+        "cleansing hands",
+        "tidying up the house"
+    ],
+    "P_03_5_3": [
+        "towel off your hands or face",
+        "brew tea",
+        "have a sip from a bottle"
+    ],
+    "P_15_5_drop_0": [
+        "consume food/snack",
+        "clean dishes"
+    ],
+    "P_11_1_drop_1": [
+        "operate the computer",
+        "sip water from the bottle"
+    ],
+    "P_04_4_drop_3": [
+        "Scrub hands and face",
+        "Scrub dishes"
+    ],
+    "P_04_1_drop_3": [
+        "Wash hands and face",
+        "Scrub teeth"
+    ],
+    "P_04_4_2": [
+        "rinse hands/face",
+        "rinse dishes",
+        "drink water/bottle"
+    ],
+    "P_11_1_1": [
+        "operate the computer",
+        "drink from the water bottle",
+        "dispose of the trash"
+    ],
+    "P_15_5": [
+        "eating food/snack",
+        "eating food/snack",
+        "washing dishes"
+    ],
+    "P_11_1_drop_2": [
+        "use the computer",
+        "take a drink from the bottle"
+    ],
+    "P_02_2_drop_3": [
+        "initiate vacuuming",
+        "wash hands/face"
+    ],
+    "P_04_4_drop_1": [
+        "Clean hands and face",
+        "Clean dishes"
+    ],
+    "P_15_5_2": [
+        "consume food/snack",
+        "have a snack",
+        "clean dishes"
+    ],
+    "P_08_6": [
+        "drying hands/face",
+        "washing hands/face",
+        "cleaning house"
+    ],
+    "P_08_6_drop_1": [
+        "Dry hands/face",
+        "Clean the house"
+    ],
+    "P_04_4_drop": [
+        "washing hands/face",
+        "washing dishes"
+    ],
+    "P_02_2_2": [
+        "commence vacuuming",
+        "rinse your hands/face",
+        "towel off your hands/face"
+    ],
+    "P_15_5_drop": [
+        "eating food/snack",
+        "washing dishes"
+    ],
+    "P_15_5_drop_3": [
+        "ingest food/snack",
+        "cleanse dishes"
+    ],
+    "P_15_5_3": [
+        "eat food/snack",
+        "snack on food",
+        "wash dishes"
+    ],
+    "P_04_1_drop_1": [
+        "Clean hands and face",
+        "Brush teeth"
+    ],
+    "P_04_1_3": [
+        "washing hands/face",
+        "brushing teeth",
+        "drying off hands/face"
+    ],
+    "P_04_4_0": [
+        "wash hands/face",
+        "wash dishes",
+        "drink water/bottle"
+    ],
+    "P_02_2_1": [
+        "begin vacuuming",
+        "cleanse your hands/face",
+        "pat dry your hands/face"
+    ],
+    "P_02_2_drop_2": [
+        "commence vacuuming",
+        "wash hands/face"
+    ],
+    "P_03_5_0": [
+        "dry your hands or face",
+        "prepare some tea",
+        "drink water from a bottle"
+    ],
+    "P_02_2": [
+        "vacuuming",
+        "washing hands/face",
+        "drying hands/face"
+    ],
+    "P_14_6_2": [
+        "employ the computer",
+        "scrub the teeth",
+        "clean the hands/face"
+    ],
+    "P_03_5": [
+        "drying hands/face",
+        "making tea",
+        "drinking water/bottle"
+    ],
+    "P_08_6_drop_3": [
+        "Dry off hands/face",
+        "Neaten the house"
+    ],
+    "P_11_1_drop": [
+        "using computer",
+        "drinking water/bottle"
+    ],
+    "P_08_6_drop_2": [
+        "Pat dry hands/face",
+        "Organize the house"
+    ],
+    "P_04_1_2": [
+        "washing hands/face",
+        "cleaning teeth",
+        "drying hands/face"
+    ],
+    "P_15_7": [
+        "drinking coffee/tea",
+        "using computer",
+        "taking pills"
+    ],
+    "P_02_11": [
+        "taking pills",
+        "putting on shoes/socks"
+    ],
+    "P_18_6": [
+        "making tea",
+        "taking pills",
+        "drinking water/tap"
+    ],
+    "P_02_11_0": [
+        "take pills",
+        "put on shoes"
+    ],
+    "P_02_11_3": [
+        "ingest pills",
+        "lace up shoes"
+    ],
+    "P_14_5": [
+        "watching tv",
+        "drinking water/bottle",
+        "taking pills"
+    ],
+    "P_09_1": [
+        "using computer",
+        "taking pills",
+        "reading book"
+    ],
+    "P_04_6": [
+        "watching tv",
+        "using cell",
+        "taking pills"
+    ],
+    "P_02_11_2": [
+        "swallow pills",
+        "slip on shoes"
+    ],
+    "P_02_11_1": [
+        "consume pills",
+        "wear shoes"
+    ],
+    "P_19_10": [
+        "watching tv",
+        "eating food/snack",
+        "washing dishes"
+    ],
+    "P_19_9": [
+        "laundry",
+        "using cell",
+        "making cold food/snack"
+    ],
+    "P_01_6_2": [
+        "working on the computer",
+        "brushing teeth",
+        "using mouth rinse"
+    ],
+    "P_07_5": [
+        "drinking coffee/tea",
+        "drinking coffee/tea",
+        "reading book"
+    ],
+    "P_19_13_3": [
+        "viewing television programs",
+        "savoring coffee or tea",
+        "reading through a book"
+    ],
+    "P_15_4": [
+        "making cold food/snack",
+        "drinking water/bottle",
+        "eating food/snack"
+    ],
+    "P_09_4_1": [
+        "wash the laundry",
+        "take a sip from the water bottle",
+        "snack on the food"
+    ],
+    "P_01_6_1": [
+        "operating the computer",
+        "brushing teeth",
+        "applying mouthwash"
+    ],
+    "P_09_4_3": [
+        "finish the laundry",
+        "drink the water from the bottle",
+        "consume the snack"
+    ],
+    "P_02_10": [
+        "using cell",
+        "using computer",
+        "reading book"
+    ],
+    "P_09_4_2": [
+        "complete the laundry",
+        "have a drink from the bottle of water",
+        "have a snack"
+    ],
+    "P_09_4_0": [
+        "do the laundry",
+        "drink from the water bottle",
+        "eat the snack"
+    ],
+    "P_19_13_1": [
+        "viewing television",
+        "sipping on coffee or tea",
+        "perusing a book"
+    ],
+    "P_19_5": [
+        "making hot food",
+        "laundry",
+        "brushing teeth"
+    ],
+    "P_01_6_0": [
+        "utilizing the computer",
+        "cleaning teeth",
+        "using mouthwash"
+    ],
+    "P_07_4": [
+        "drinking coffee/tea",
+        "reading book",
+        "watching tv"
+    ],
+    "P_01_6_3": [
+        "engaging with the computer",
+        "brushing teeth",
+        "applying mouthwash"
+    ],
+    "P_08_5": [
+        "washing dishes",
+        "washing hands/face",
+        "washing dishes"
+    ],
+    "P_09_4": [
+        "laundry",
+        "drinking water/bottle",
+        "eating food/snack"
+    ],
+    "P_14_4": [
+        "making tea",
+        "drinking water/bottle",
+        "using cell"
+    ],
+    "P_19_13_2": [
+        "enjoying TV shows",
+        "having a cup of coffee or tea",
+        "going through a book"
+    ],
+    "P_09_5": [
+        "making tea",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_17_7": [
+        "eating food/snack",
+        "laundry",
+        "using computer"
+    ],
+    "P_01_6": [
+        "using computer",
+        "brushing teeth",
+        "using_mouth_wash"
+    ],
+    "P_19_13": [
+        "watching tv",
+        "drinking coffee/tea",
+        "reading book"
+    ],
+    "P_19_13_0": [
+        "watching TV",
+        "drinking coffee or tea",
+        "reading a book"
+    ]
+}

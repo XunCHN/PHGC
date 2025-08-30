@@ -1,0 +1,154 @@
+{
+    "4.3_2": [
+        "lift the test tube",
+        "take up the conical flask",
+        "pour from the conical flask",
+        "lower the conical flask",
+        "fasten the iron clamp",
+        "lift the horn tube",
+        "insert the horn tube"
+    ],
+    "4.3_0": [
+        "pick up the test tube",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "put down the conical flask",
+        "tighten the iron clamp",
+        "pick up the horn tube",
+        "place the horn tube"
+    ],
+    "4.1_0": [
+        "pick up the test tube",
+        "tighten the iron clamp",
+        "pick up the horn tube",
+        "insert the horn tube",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "put down the conical flask"
+    ],
+    "4.5": [
+        "take up the test tube",
+        "screw the iron clamp",
+        "take up the horn tube",
+        "insert the horn tube",
+        "take up the alcohol burner",
+        "uncover the alcohol burner",
+        "put down the alcohol burner",
+        "put down the alcohol burner cap",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask",
+        "take up the alcohol burner cap",
+        "cover the alcohol burner with the alcohol burner cap"
+    ],
+    "4.3_1": [
+        "grab the test tube",
+        "lift the conical flask",
+        "empty the conical flask",
+        "set down the conical flask",
+        "secure the iron clamp",
+        "grab the horn tube",
+        "position the horn tube"
+    ],
+    "4.1_1": [
+        "grab the test tube",
+        "secure the iron clamp",
+        "grab the horn tube",
+        "place the horn tube",
+        "grab the conical flask",
+        "pour from the conical flask",
+        "set down the conical flask"
+    ],
+    "4.1_2": [
+        "lift the test tube",
+        "fasten the iron clamp",
+        "lift the horn tube",
+        "introduce the horn tube",
+        "lift the conical flask",
+        "empty the conical flask",
+        "lower the conical flask"
+    ],
+    "4.1": [
+        "take up the test tube",
+        "screw the iron clamp",
+        "take up the horn tube",
+        "insert the horn tube",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask"
+    ],
+    "4.3": [
+        "take up the test tube",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask",
+        "screw the iron clamp",
+        "take up the horn tube",
+        "insert the horn tube"
+    ],
+    "4.2_1": [
+        "grab the test tube",
+        "grab the horn tube",
+        "position the horn tube",
+        "secure the iron clamp",
+        "grab the conical flask",
+        "pour from the conical flask",
+        "set down the conical flask"
+    ],
+    "4.5_0": [
+        "pick up the test tube",
+        "tighten the iron clamp",
+        "pick up the horn tube",
+        "insert the horn tube",
+        "pick up the alcohol burner",
+        "remove the alcohol burner cover",
+        "set down the alcohol burner",
+        "place the alcohol burner cap down",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "set down the conical flask",
+        "pick up the alcohol burner cap",
+        "cover the alcohol burner with the cap"
+    ],
+    "4.2": [
+        "take up the test tube",
+        "take up the horn tube",
+        "insert the horn tube",
+        "screw the iron clamp",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask"
+    ],
+    "4.4_0": [
+        "pick up the test tube",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "put down the conical flask"
+    ],
+    "4.2_2": [
+        "lift the test tube",
+        "lift the horn tube",
+        "insert the horn tube",
+        "fasten the iron clamp",
+        "lift the conical flask",
+        "empty the conical flask",
+        "lower the conical flask"
+    ],
+    "4.4": [
+        "take up the test tube",
+        "screw the iron clamp",
+        "take up the conical flask",
+        "pour the conical flask",
+        "put down the conical flask"
+    ],
+    "4.2_0": [
+        "pick up the test tube",
+        "pick up the horn tube",
+        "place the horn tube",
+        "tighten the iron clamp",
+        "pick up the conical flask",
+        "pour out the conical flask",
+        "set down the conical flask"
+    ]
+}

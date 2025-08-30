@@ -1,0 +1,826 @@
+{
+    "P_09_5_0": [
+        "making tea",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_08_1_2": [
+        "utilizing the computer",
+        "enjoying coffee/tea",
+        "scrubbing dishes"
+    ],
+    "P_19_10_1": [
+        "viewing television",
+        "snacking on food",
+        "cleaning dishes"
+    ],
+    "P_01_9": [
+        "using cell",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_08_8_1": [
+        "consuming food/snack",
+        "sipping coffee/tea",
+        "sipping coffee/tea"
+    ],
+    "P_15_4_0": [
+        "prepare a cold snack",
+        "drink from a water bottle",
+        "eat a snack"
+    ],
+    "P_15_4_3": [
+        "make a cold treat",
+        "take a drink from a bottle",
+        "snack on some food"
+    ],
+    "P_12_5_3": [
+        "munching on food/snack",
+        "sipping on coffee/tea",
+        "viewing TV"
+    ],
+    "P_13_4_3": [
+        "infusing tea",
+        "viewing TV",
+        "snacking on a treat"
+    ],
+    "P_02_10_1": [
+        "employing cell",
+        "working on computer",
+        "going through book"
+    ],
+    "P_15_4_1": [
+        "chill some food",
+        "have a sip of water",
+        "consume a snack"
+    ],
+    "P_19_9": [
+        "laundry",
+        "using cell",
+        "making cold food/snack"
+    ],
+    "P_11_2_0": [
+        "making tea",
+        "using computer",
+        "drinking coffee/tea"
+    ],
+    "P_07_4_2": [
+        "enjoying coffee",
+        "going through a book",
+        "observing television"
+    ],
+    "P_19_4_1": [
+        "sip from the water bottle",
+        "operate the computer",
+        "relocate the dishes"
+    ],
+    "P_04_3_1": [
+        "clean the dishes",
+        "prepare coffee",
+        "get water from the tap"
+    ],
+    "P_08_5_0": [
+        "wash the dishes",
+        "wash your hands/face",
+        "clean the dishes"
+    ],
+    "P_14_3_0": [
+        "pour water into the bottle",
+        "pour coffee or tea",
+        "fill a glass with water from the tap",
+        "pour a glass of water from the tap"
+    ],
+    "P_07_6_1": [
+        "sipping coffee",
+        "enjoying a cup of tea",
+        "brewing coffee",
+        "having tea"
+    ],
+    "P_01_9_3": [
+        "utilizing a cell phone",
+        "sipping on coffee/tea",
+        "washing the dishes"
+    ],
+    "P_19_4_2": [
+        "take a drink from the water bottle",
+        "utilize the computer",
+        "shift the dishes"
+    ],
+    "P_04_4_2": [
+        "sip water from the bottle",
+        "rinse the dishes",
+        "clean hands and face"
+    ],
+    "P_05_4_0": [
+        "brewing tea",
+        "operating cell phone",
+        "brushing hair"
+    ],
+    "P_08_8_0": [
+        "eating food/snack",
+        "drinking coffee/tea",
+        "drinking coffee/tea"
+    ],
+    "P_04_4_0": [
+        "drink water from the bottle",
+        "clean the dishes",
+        "wash hands and face"
+    ],
+    "P_13_3_0": [
+        "brewing tea",
+        "vacuuming the floor",
+        "preparing a cold snack"
+    ],
+    "P_08_1": [
+        "using computer",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_08_5_1": [
+        "do the dishes",
+        "wash your hands/face",
+        "clean the dishes"
+    ],
+    "P_05_4_1": [
+        "preparing tea",
+        "utilizing cell phone",
+        "brushing hair"
+    ],
+    "P_11_2": [
+        "making tea",
+        "using computer",
+        "drinking coffee/tea"
+    ],
+    "P_19_4_0": [
+        "drink from the water bottle",
+        "use the computer",
+        "move the dishes"
+    ],
+    "P_17_7": [
+        "eating food/snack",
+        "laundry",
+        "using computer"
+    ],
+    "P_08_5_2": [
+        "clean the dishes",
+        "wash your hands/face",
+        "wash the dishes"
+    ],
+    "P_08_8_3": [
+        "snacking on food",
+        "savoring coffee/tea",
+        "savoring coffee/tea"
+    ],
+    "P_07_4_3": [
+        "having coffee",
+        "reading a novel",
+        "watching a show"
+    ],
+    "P_13_4_1": [
+        "preparing tea",
+        "observing television",
+        "snacking on food"
+    ],
+    "P_02_10_0": [
+        "utilizing cell",
+        "operating computer",
+        "perusing book"
+    ],
+    "P_11_2_3": [
+        "steeping tea",
+        "working on computer",
+        "having coffee/tea"
+    ],
+    "P_20_4": [
+        "making hot food",
+        "washing dishes",
+        "making tea"
+    ],
+    "P_19_5_1": [
+        "cook hot dishes",
+        "do laundry",
+        "brush teeth"
+    ],
+    "P_04_3": [
+        "washing dishes",
+        "making coffee",
+        "grabbing water from tap"
+    ],
+    "P_19_10": [
+        "watching tv",
+        "eating food/snack",
+        "washing dishes"
+    ],
+    "P_14_4_1": [
+        "preparing tea",
+        "drinking from a water bottle",
+        "utilizing a cell phone"
+    ],
+    "P_14_4_3": [
+        "infusing tea",
+        "quenching thirst from a bottle",
+        "working with a cell phone"
+    ],
+    "P_10_1_1": [
+        "preparing cold food/snack",
+        "consuming food/snack",
+        "consuming food/snack",
+        "preparing cold food/snack",
+        "consuming food/snack",
+        "consuming food/snack",
+        "preparing cold food/snack",
+        "consuming food/snack",
+        "consuming food/snack",
+        "preparing cold food/snack",
+        "consuming food/snack",
+        "consuming food/snack"
+    ],
+    "P_15_6": [
+        "making hot food",
+        "washing dishes",
+        "washing dishes"
+    ],
+    "P_08_1_3": [
+        "operating the computer",
+        "having coffee/tea",
+        "doing the dishes"
+    ],
+    "P_15_6_0": [
+        "cooking hot meals",
+        "cleaning dishes",
+        "cleaning dishes"
+    ],
+    "P_05_4_3": [
+        "brewing tea",
+        "engaging with cell phone",
+        "brushing hair"
+    ],
+    "P_02_4": [
+        "drinking water/bottle",
+        "drinking coffee/tea",
+        "eating food/snack"
+    ],
+    "P_10_1_2": [
+        "creating cold food/snack",
+        "having food/snack",
+        "having food/snack",
+        "creating cold food/snack",
+        "having food/snack",
+        "having food/snack",
+        "creating cold food/snack",
+        "having food/snack",
+        "having food/snack",
+        "creating cold food/snack",
+        "having food/snack",
+        "having food/snack"
+    ],
+    "P_04_3_3": [
+        "scrub the dishes",
+        "make some coffee",
+        "take water from the tap"
+    ],
+    "P_04_3_0": [
+        "wash the dishes",
+        "brew some coffee",
+        "fetch water from the tap"
+    ],
+    "P_20_4_2": [
+        "cooking hot dishes",
+        "washing dishes",
+        "brewing tea"
+    ],
+    "P_13_3_1": [
+        "steeping tea",
+        "doing the vacuuming",
+        "preparing a cold dish"
+    ],
+    "P_14_3": [
+        "drinking water/bottle",
+        "drinking coffee/tea",
+        "grabbing water from tap"
+    ],
+    "P_04_4": [
+        "drinking water/bottle",
+        "washing dishes",
+        "washing hands/face"
+    ],
+    "P_12_5": [
+        "eating food/snack",
+        "drinking coffee/tea",
+        "watching tv"
+    ],
+    "P_02_4_0": [
+        "drink water from the bottle",
+        "drink coffee or tea",
+        "eat food or a snack"
+    ],
+    "P_04_4_1": [
+        "consume water from the bottle",
+        "scrub the dishes",
+        "cleanse hands and face"
+    ],
+    "P_08_8": [
+        "eating food/snack",
+        "drinking coffee/tea",
+        "drinking coffee/tea"
+    ],
+    "P_02_4_3": [
+        "take a sip from the bottle",
+        "indulge in coffee or tea",
+        "munch on food or a snack"
+    ],
+    "P_17_7_0": [
+        "eating food/snack",
+        "doing laundry",
+        "using the computer"
+    ],
+    "P_02_10_3": [
+        "utilizing a cell phone",
+        "interacting with a computer",
+        "engaging with a book"
+    ],
+    "P_13_4_2": [
+        "steeping tea",
+        "watching television",
+        "munching on food"
+    ],
+    "P_14_4": [
+        "making tea",
+        "drinking water/bottle",
+        "using cell"
+    ],
+    "P_07_4_0": [
+        "drinking coffee",
+        "reading a book",
+        "watching television"
+    ],
+    "P_17_7_2": [
+        "having a meal/snack",
+        "doing the laundry",
+        "working on the computer"
+    ],
+    "P_01_9_0": [
+        "utilizing cell",
+        "sipping coffee/tea",
+        "cleaning dishes"
+    ],
+    "P_01_6": [
+        "using computer",
+        "brushing teeth",
+        "using_mouth_wash"
+    ],
+    "P_17_7_1": [
+        "snacking",
+        "doing the laundry",
+        "operating the computer"
+    ],
+    "P_17_6_0": [
+        "drinking coffee/tea",
+        "consuming a hot beverage",
+        "making cold food/snack",
+        "drinking coffee/tea",
+        "preparing a chilled snack",
+        "enjoying a beverage"
+    ],
+    "P_17_6_2": [
+        "having coffee/tea",
+        "drinking a hot beverage",
+        "preparing cold food/snack",
+        "having coffee/tea",
+        "making a cold snack",
+        "unknown"
+    ],
+    "P_19_9_1": [
+        "laundry",
+        "using a cell",
+        "making cold food or snacks"
+    ],
+    "P_17_6_1": [
+        "sipping coffee/tea",
+        "having a hot drink",
+        "preparing cold food/snack",
+        "sipping coffee/tea",
+        "creating a cold snack",
+        "unknown"
+    ],
+    "P_12_5_2": [
+        "having a meal/snack",
+        "sipping on coffee/tea",
+        "watching television"
+    ],
+    "P_20_4_0": [
+        "prepare hot food",
+        "clean dishes",
+        "brew tea"
+    ],
+    "P_07_5_2": [
+        "having a cup of coffee",
+        "sipping on tea",
+        "reading a story"
+    ],
+    "P_07_6": [
+        "drinking coffee/tea",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_16_4": [
+        "eating food/snack",
+        "vacuuming",
+        "washing dishes"
+    ],
+    "P_09_5_1": [
+        "brewing tea",
+        "having coffee/tea",
+        "cleaning dishes"
+    ],
+    "P_09_5_2": [
+        "preparing tea",
+        "sipping coffee/tea",
+        "scrubbing dishes"
+    ],
+    "P_16_4_1": [
+        "snacking",
+        "vacuuming the floor",
+        "doing the dishes"
+    ],
+    "P_14_3_3": [
+        "add water to the bottle",
+        "enjoy coffee or tea",
+        "fetch water from the tap",
+        "fill a glass with water from the tap"
+    ],
+    "P_02_10": [
+        "using cell",
+        "using computer",
+        "reading book"
+    ],
+    "P_20_4_3": [
+        "preparing hot meals",
+        "doing dishes",
+        "making tea"
+    ],
+    "P_14_4_0": [
+        "brewing tea",
+        "sipping water from a bottle",
+        "operating a cell phone"
+    ],
+    "P_17_6_3": [
+        "enjoying coffee/tea",
+        "consuming a hot drink",
+        "preparing cold food/snack",
+        "enjoying coffee/tea",
+        "making a cold snack",
+        "unknown"
+    ],
+    "P_19_5_0": [
+        "prepare hot meals",
+        "do the laundry",
+        "brush teeth"
+    ],
+    "P_07_6_3": [
+        "enjoying coffee",
+        "taking a tea break",
+        "brewing coffee",
+        "having tea"
+    ],
+    "P_01_9_2": [
+        "using cellphone",
+        "enjoying coffee/tea",
+        "cleaning the dishes"
+    ],
+    "P_17_7_3": [
+        "having food/snack",
+        "doing the laundry",
+        "utilizing the computer"
+    ],
+    "P_08_8_2": [
+        "having a meal/snack",
+        "enjoying coffee/tea",
+        "enjoying coffee/tea"
+    ],
+    "P_16_4_2": [
+        "having a meal/snack",
+        "doing the vacuuming",
+        "cleaning the dishes"
+    ],
+    "P_19_5_3": [
+        "prepare warm meals",
+        "do the laundry",
+        "brushing teeth"
+    ],
+    "P_09_5_3": [
+        "steeping tea",
+        "enjoying coffee/tea",
+        "rinsing dishes"
+    ],
+    "P_07_6_0": [
+        "drinking coffee",
+        "having a cup of tea",
+        "making coffee",
+        "drinking tea"
+    ],
+    "P_16_4_0": [
+        "eating food/snack",
+        "vacuuming",
+        "washing dishes"
+    ],
+    "P_09_5": [
+        "making tea",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_02_4_2": [
+        "have a drink from the bottle",
+        "savor coffee or tea",
+        "snack on food or a snack"
+    ],
+    "P_13_3": [
+        "making tea",
+        "vacuuming",
+        "making cold food/snack"
+    ],
+    "P_07_5_1": [
+        "sipping coffee",
+        "enjoying tea",
+        "reading a novel"
+    ],
+    "P_19_4": [
+        "drinking water/bottle",
+        "using computer",
+        "moving dishes"
+    ],
+    "P_05_4": [
+        "making tea",
+        "using cell",
+        "combing hair"
+    ],
+    "P_11_2_2": [
+        "preparing tea",
+        "utilizing computer",
+        "enjoying coffee/tea"
+    ],
+    "P_19_10_2": [
+        "viewing a show",
+        "snacking on a treat",
+        "cleaning the dishes"
+    ],
+    "P_08_5_3": [
+        "do the dishes",
+        "wash your hands/face",
+        "clean the dishes"
+    ],
+    "P_07_6_2": [
+        "having a coffee break",
+        "relaxing with a cup of tea",
+        "preparing coffee",
+        "sipping tea"
+    ],
+    "P_04_4_3": [
+        "hydrate with water from the bottle",
+        "scrub the dishes",
+        "wash hands and face"
+    ],
+    "P_19_9_2": [
+        "laundry tasks",
+        "utilizing a cell phone",
+        "creating cold food or snacks"
+    ],
+    "P_19_9_0": [
+        "doing laundry",
+        "using a cell phone",
+        "preparing cold food or snacks"
+    ],
+    "P_12_5_1": [
+        "snacking on food",
+        "sipping on coffee/tea",
+        "viewing television"
+    ],
+    "P_07_5_0": [
+        "drinking coffee",
+        "having tea",
+        "reading a book"
+    ],
+    "P_04_3_2": [
+        "do the dishes",
+        "brew a cup of coffee",
+        "take water from the tap"
+    ],
+    "P_15_6_1": [
+        "preparing hot meals",
+        "doing the dishes",
+        "doing the dishes"
+    ],
+    "P_13_4_0": [
+        "brewing tea",
+        "viewing television",
+        "consuming food/snack"
+    ],
+    "P_15_6_2": [
+        "heating up food",
+        "washing the dishes",
+        "washing the dishes"
+    ],
+    "P_07_4_1": [
+        "sipping coffee",
+        "perusing a book",
+        "viewing television"
+    ],
+    "P_19_4_3": [
+        "have a sip from the water bottle",
+        "work on the computer",
+        "rearrange the dishes"
+    ],
+    "P_13_3_3": [
+        "brewing tea",
+        "running the vacuum",
+        "preparing a cold appetizer"
+    ],
+    "P_16_4_3": [
+        "snacking on food",
+        "running the vacuum",
+        "doing the dishwashing"
+    ],
+    "P_07_5": [
+        "drinking coffee/tea",
+        "drinking coffee/tea",
+        "reading book"
+    ],
+    "P_15_4_2": [
+        "create a cold dish",
+        "sip from a water bottle",
+        "have a meal"
+    ],
+    "P_07_5_3": [
+        "enjoying a coffee",
+        "drinking tea",
+        "reading a book"
+    ],
+    "P_15_4": [
+        "making cold food/snack",
+        "drinking water/bottle",
+        "eating food/snack"
+    ],
+    "P_14_4_2": [
+        "steeping tea",
+        "taking a sip from a water bottle",
+        "engaging with a cell phone"
+    ],
+    "P_14_3_2": [
+        "put water in the bottle",
+        "have coffee or tea",
+        "take water from the tap",
+        "fill a glass with water from the tap"
+    ],
+    "P_15_6_3": [
+        "preparing warm meals",
+        "cleaning the dishes",
+        "cleaning the dishes"
+    ],
+    "P_08_1_1": [
+        "working on the computer",
+        "sipping coffee/tea",
+        "cleaning dishes"
+    ],
+    "P_19_10_0": [
+        "watching tv",
+        "eating food/snack",
+        "washing dishes"
+    ],
+    "P_05_4_2": [
+        "steeping tea",
+        "working with cell phone",
+        "combing hair"
+    ],
+    "P_02_10_2": [
+        "using cell phone",
+        "manipulating computer",
+        "reading a book"
+    ],
+    "P_11_2_1": [
+        "brewing tea",
+        "operating computer",
+        "sipping coffee/tea"
+    ],
+    "P_19_10_3": [
+        "watching television",
+        "snacking on a snack",
+        "doing the dishes"
+    ],
+    "P_19_5": [
+        "making hot food",
+        "laundry",
+        "brushing teeth"
+    ],
+    "P_10_1_0": [
+        "making cold food/snack",
+        "eating food/snack",
+        "eating food/snack",
+        "making cold food/snack",
+        "eating food/snack",
+        "eating food/snack",
+        "making cold food/snack",
+        "eating food/snack",
+        "eating food/snack",
+        "making cold food/snack",
+        "eating food/snack",
+        "eating food/snack"
+    ],
+    "P_13_4": [
+        "making tea",
+        "watching tv",
+        "eating food/snack"
+    ],
+    "P_20_4_1": [
+        "cooking hot meals",
+        "cleaning dishes",
+        "brewing tea"
+    ],
+    "P_19_5_2": [
+        "heat up food",
+        "wash clothes",
+        "brushing teeth"
+    ],
+    "P_07_4": [
+        "drinking coffee/tea",
+        "reading book",
+        "watching tv"
+    ],
+    "P_08_5": [
+        "washing dishes",
+        "washing hands/face",
+        "washing dishes"
+    ],
+    "P_01_9_1": [
+        "employing cell",
+        "having coffee/tea",
+        "scrubbing dishes"
+    ],
+    "P_10_1": [
+        "making cold food/snack",
+        "eating food/snack",
+        "eating food/snack"
+    ],
+    "P_09_4": [
+        "laundry",
+        "drinking water/bottle",
+        "eating food/snack"
+    ],
+    "P_19_9_3": [
+        "laundry chores",
+        "operating a cell phone",
+        "preparing cold food or snacks"
+    ],
+    "P_12_5_0": [
+        "eating food/snack",
+        "drinking coffee/tea",
+        "watching tv"
+    ],
+    "P_13_3_2": [
+        "infusing tea",
+        "cleaning with a vacuum",
+        "making a cold treat"
+    ],
+    "P_17_6": [
+        "drinking coffee/tea",
+        "unknown",
+        "making cold food/snack",
+        "drinking coffee/tea",
+        "making cold food/snack",
+        "unknown"
+    ],
+    "P_02_4_1": [
+        "sip water from the bottle",
+        "enjoy coffee or tea",
+        "consume food or a snack"
+    ],
+    "P_19_13": [
+        "watching tv",
+        "drinking coffee/tea",
+        "reading book"
+    ],
+    "P_08_1_0": [
+        "using computer",
+        "drinking coffee/tea",
+        "washing dishes"
+    ],
+    "P_14_3_1": [
+        "fill the bottle with water",
+        "drink coffee or tea",
+        "get water from the tap",
+        "fill a glass with water from the tap"
+    ],
+    "P_10_1_3": [
+        "preparing chilled food/snack",
+        "indulging in food/snack",
+        "indulging in food/snack",
+        "preparing chilled food/snack",
+        "indulging in food/snack",
+        "indulging in food/snack",
+        "preparing chilled food/snack",
+        "indulging in food/snack",
+        "indulging in food/snack",
+        "preparing chilled food/snack",
+        "indulging in food/snack",
+        "indulging in food/snack"
+    ]
+}

@@ -1,190 +1,342 @@
 import os
+
+from utils.nesy_arguments import Arguments
+from utils.dataset_utils import *
+from utils.distributed_utils import *
+from utils.feature_extraction import *
+from utils.rnn import RNNEncoder
+from dataset.train_data import SIM
+from dataset.test_data import REAL
 import torch
+import numpy as np
+from tqdm import tqdm
 import torch.optim as optim
 import torch.nn as nn
-from torch.utils.data import DataLoader
-from torchmetrics import MetricCollection, Accuracy, F1Score
-from torch.nn.parallel import DistributedDataParallel as DDP
+from torchmetrics import MetricCollection, Accuracy, F1Score, ConfusionMatrix
 import torch.distributed as dist
-from tqdm import tqdm
-import numpy as np
-from dataset.dataset import graphDataset
-from model.PHGC import PHGC
-from utils.feat_extraction import *
-from utils.rnn import RNNEncoder
-from EgoTV.args import Arguments
+from torch.utils.data import random_split,Sampler,Subset,DataLoader
+from torch.nn.parallel import DistributedDataParallel as DDP
+from model import SR
+
 
 def custom_collate(batch):
     """
-    Custom collate function to handle DiGraph objects in batch.
-    Returns:
-        file_name, vid_feat, text_graph, hypotheses, label
+    Custom collate function to handle DiGraph objects.
     """
-    file_name, vid_feat, text_graph, hypotheses, label = zip(*batch)
-    return file_name, vid_feat, text_graph, hypotheses, label
-
-def test_model(test_type):
+    add,label,des,vid_feat = zip(*batch)
+    
+    return add,label,des,vid_feat
+def train_custom_collate(batch):
     """
-    Function to test the model on a given dataset type.
-    Args:
-        test_type (str): Type of test data to use ('nt', 'ns', 'nsc', 'abs')
-
-    Returns:
-        test_acc (float): Accuracy of the model on the test set
-        test_f1 (float): F1 score of the model on the test set
+    Custom collate function to handle DiGraph objects.
     """
-    # Load the test dataset and prepare the DataLoader
-    test_set = graphDataset(test_type,args)
-    test_loader = DataLoader(test_set, batch_size=args.batch_size, num_workers=args.num_workers, shuffle=False, collate_fn=custom_collate)
+    add,label,des,vid_feat,name_real,des_real,vid_feat_real = zip(*batch)
+    
+    return add,label,des,vid_feat,name_real,des_real,vid_feat_real
+def test_model(domain,test_type):
 
+    model.eval()
+
+    count = 0
+    count_pos = 0
+    count_neg = 0
+    test_set = REAL(domain,test_type)
+    test_loader = DataLoader(test_set, batch_size=args.batch_size,num_workers=args.num_workers, shuffle=False,collate_fn=custom_collate)
+
+    
     with torch.no_grad():
-        for file_name, vid_feat, text_graph, hypotheses, label in tqdm(test_loader):
-            dp_preds, map_preds, labels = model(file_name, vid_feat, text_graph, hypotheses, label)
-            labels = labels.type(torch.int)
-            test_metrics.update(preds=dp_preds, target=labels)
-            test_metrics.update(preds=map_preds, target=labels)
+        print("Testing on {} domain".format(domain))
+        for (file_names, labels, hypotheses, vid_feats)  in tqdm(test_loader):
+            labels = torch.tensor(labels).cuda()
+            labels = labels.float()
 
-        # Compute metrics after the entire test dataset has been processed
-        test_acc, test_f1 = list(test_metrics.compute().values())
-        print(f'Test Acc: {test_acc} | Test F1: {test_f1}')
-        log_file.write(f'{test_type}: Test Acc: {test_acc.item()} | Test F1: {test_f1.item()}\n')
-        log_file.flush()
+            dp_outputs = []
+            map_outputs = []
+            valid_indices = []  
+            for i in range(len(file_names)):
+                try:
+                    map_pred, _,= model(file_names[i], hypotheses[i], vid_feats[i],None,None,None,None,None,None,None,None)
+                    map_outputs.append(map_pred)
+                    valid_indices.append(i)
+                except Exception as e:
+                    if epoch == 1:
+                        untrained_log_file.write(f"File: {file_names[i]}\n")
+                        untrained_log_file.write(f"Label: {labels[i].item()}\n")
+                        untrained_log_file.write(f"Error: {str(e)}\n")
+                        untrained_log_file.write(f"Video feature length: {len(vid_feats[i])}\n\n")
+                        untrained_log_file.flush()
+                    
+                    if labels[i] == 1:
+                        count_pos += 1
+                    else:
+                        count_neg += 1
+                    continue
+            if not valid_indices:
+                continue
+                
 
-    return test_acc, test_f1
+            valid_labels = labels[valid_indices]
+            map_preds = torch.stack(map_outputs).view(-1)
+            test_metrics_map.update(preds=map_preds, target=valid_labels)
+            test_metrics_map1.update(preds=1-map_preds, target=1-valid_labels)
+            
 
-def train_epoch(model, train_loader, epoch, previous_best_acc):
-    """
-    Function to train the model for one epoch.
-    Args:
-        model (nn.Module): The model to be trained
-        train_loader (DataLoader): The DataLoader for the training data
-        epoch (int): The current epoch
-        previous_best_acc (float): The previous best accuracy
+           
 
-    Returns:
-        previous_best_acc (float): The updated best accuracy
-    """
+            
+
+        dist.barrier()
+
+        test_acc_map, test_f1_map = list(test_metrics_map.compute().values())
+        test_acc_map1, test_f1_map1 = list(test_metrics_map1.compute().values())
+
+        test_acc_map=(test_acc_map + test_acc_map1) / 2
+        test_f1_map=(test_f1_map + test_f1_map1) / 2
+
+        dist.barrier()
+        if is_main_process():
+
+            print('Test Acc_map: {} | Test F1_map: {}'.format(test_acc_map, test_f1_map))
+
+            log_file.write( test_type +': Test Acc_map: ' + str(test_acc_map.item()) + ' | Test F1_map: ' + str(test_f1_map.item()) + "\n")
+
+            log_file.flush()
+        print(count)
+    return test_acc_map, test_f1_map
+
+
+
+def train_epoch(model, train_loader,epoch, best_acc,sim_prototypes,real_prototypes,video_ass,total_epochs):
+
     model.train()
     train_loss = []
-    count = 0
+    cdel=[]
+    cal=[]
+    count_pos = 0
+    count_neg = 0
 
-    for file_name, vid_feat, text_graph, hypotheses, label in tqdm(train_loader):
-        try:
-            dp_preds, map_preds, labels = model(file_name, vid_feat, text_graph, hypotheses, label)
+    
+    print("Training epoch: {}".format(epoch))
+    for (file_names, labels, hypotheses, vid_feats,real_names,real_hypothese,realv_feats) in (tqdm(train_loader)):
+        labels = torch.tensor(labels).cuda()
+        labels=labels.float().cuda()
+        map_outputs = []
+        valid_indices = [] 
+        batch_domain_losses = []
 
-            # Calculate losses
-            dp_loss = bce_loss(dp_preds, labels)
-            map_loss = bce_loss(map_preds, labels)
-
-            # Zero the gradients for the optimizers
-            optimizer_dp.zero_grad()
-            optimizer_map.zero_grad()
-
-            # Backpropagate the losses
-            dp_loss.backward(retain_graph=True)
-            map_loss.backward()
-
-            # Update model parameters
-            optimizer_dp.step()
-            optimizer_map.step()
-
-            train_loss.append((dp_loss.item(), map_loss.item()))
-            labels = labels.type(torch.int)
-            train_metrics.update(preds=dp_preds, target=labels)
-            break
-
-        except:
-            print(f'Error processing {file_name}')
-            count += 1
+        for i in range(len(file_names)):
+            try:
+                map_pred, domain_loss= model(
+                        file_names[i], 
+                        hypotheses[i], 
+                        vid_feats[i],
+                        real_names[i],
+                        real_hypothese[i],
+                        realv_feats[i],
+                        sim_prototypes,
+                        real_prototypes,
+                        video_ass,
+                        epoch,
+                        total_epochs
+                    )
+                map_outputs.append(map_pred)
+                valid_indices.append(i)
+                batch_domain_losses.append(domain_loss)
+            except Exception as e:
+                if epoch == 1:
+                    untrained_log_file.write(f"File: {file_names[i]}\n")
+                    untrained_log_file.write(f"Label: {labels[i].item()}\n")
+                    untrained_log_file.write(f"Error: {str(e)}\n")
+                    untrained_log_file.write(f"Video feature length: {len(vid_feats[i])}\n\n")
+                    untrained_log_file.flush()
+                
+                if labels[i] == 1:
+                    count_pos += 1
+                else:
+                    count_neg += 1
+                continue
+            
+        if not valid_indices:
             continue
+            
+        valid_labels = labels[valid_indices]
+        map_preds = torch.stack(map_outputs).view(-1)
+    
+        
+        domain_loss = torch.stack(batch_domain_losses).mean()
+        
+        map_loss = bce_loss(map_preds, valid_labels)+0.1*domain_loss
+        
+        optimizer_map.zero_grad()
+        
+        map_loss.backward()
+        
+        optimizer_map.step()
+
+        valid_labels = valid_labels.type(torch.int)
+        
+        
+        
+     
 
     acc, f1 = list(train_metrics.compute().values())
-    print(f'Untrained num: {count}')
-    print(f'Train Loss: {np.array(train_loss).mean()}')
-    print(f'Epoch: {epoch} | Train Acc: {acc} | Train F1: {f1}')
+    print('Train Loss: {}'.format(np.array(train_loss).mean()))
+  
+    print('pos:%d' %count_pos)
+    print('neg:%d' %count_neg)
 
-    # Log training metrics
-    log_file.write(f'Epoch: {epoch} | Train Acc: {acc.item()} | Train F1: {f1.item()}\n')
-    log_file.write(f'Train Loss: {np.array(train_loss).mean()}\n')
-    
-    # Save the model if the accuracy is the best so far
-    if acc > torch.tensor(previous_best_acc):
-        previous_best_acc = acc.item()
-        print('============== Saving best model ===============')
-        torch.save(model.module.state_dict(), model_ckpt_path_train)
+    if is_main_process():
+
+        print('Epoch: {} | Train Acc: {} | Train F1: {} '.format(epoch, acc, f1))
+        print('pos: %d  neg: %d' %(count_pos, count_neg))
+
+        
+        log_file.write('Epoch: ' + str(epoch) + ' | Train Acc: ' + str(acc.item()) +' | Train F1: ' + str(f1.item()) +"\n")
+        log_file.write('Train Loss: {}\n'.format(np.array(train_loss).mean()))
+        log_file.write('pos: %d  neg: %d' %(count_pos, count_neg))
+        log_file.write("\n")
+
+        if acc > torch.tensor(best_acc):
+            best_acc = acc.item()
+            print('============== Saving best model(s) ================')
+            torch.save(model.module.state_dict(), model_ckpt_path_train)
+            optimizer={'optimizer_dp': optimizer_dp.state_dict(),
+                      'optimizer_map': optimizer_map.state_dict()}
+            torch.save(optimizer, optimizer_ckpt_path)
+            print('Model saved to {}'.format(model_ckpt_path_train))
+            print('Optimizer state saved to {}'.format(optimizer_ckpt_path))
+
         log_file.flush()
+        
 
-    return previous_best_acc
 
 
+    return best_acc
 
 if __name__ == '__main__':
 
-    # Initialize distributed training
     dist_url = "env://"
     rank = int(os.environ["RANK"])
     world_size = int(os.environ['WORLD_SIZE'])
     local_rank = int(os.environ['LOCAL_RANK'])
-    dist.init_process_group(backend="nccl", init_method=dist_url, world_size=world_size, rank=rank)
+    dist.init_process_group(
+        backend="nccl",
+        init_method=dist_url,
+        world_size=world_size,
+        rank=rank)
     torch.cuda.set_device(local_rank)
 
-    # Parse arguments
+    dist.barrier()
     args = Arguments()
 
-    # Setup logging
-    logger_path = os.path.join("logs", args.log_name)
-    log_file = open(logger_path, "w")
+
+
+    
+    logger_filename = 'log_files/log_{}_{}.txt'.format(args.dataset,args.run_id)
+    log_file = open(logger_filename, "a")
     log_file.write(str(args) + '\n')
 
-    # Model checkpoint path
-    model_ckpt_path_train = os.path.join("ckpt", args.ckpt_name)
+    untrained_filename = 'untrained_files/untrained_{}_{}.txt'.format(args.dataset,args.run_id)
+    untrained_log_file = open(untrained_filename, "w")
 
-    # Prepare datasets and DataLoader for training
-    train_set = graphDataset('train', args)
-    train_loader = DataLoader(train_set, batch_size=args.batch_size, num_workers=args.num_workers, shuffle=True, collate_fn=custom_collate)
+    model_ckpt_path_train = "ckpts/weight_{}_{}.pth".format(args.dataset,args.run_id)
+    optimizer_ckpt_path = "ckpts/optimizer_{}_{}.pth".format(args.dataset,args.run_id)
 
-    # Initialize text model
-    text_model, tokenizer_text, text_feat_size = initiate_text_module(feature_extractor=args.text_feature_extractor)
-    text_model.cuda()
-    text_model = DDP(text_model, device_ids=[local_rank])
+    # dataset = SIM(args.dataset)
+    # train_loader= DataLoader(dataset, batch_size=args.batch_size, shuffle = True, collate_fn=train_custom_collate)
+
+
+    
+    visual_model, vid_feat_size, transform = initiate_visual_module(args.visual_feature_extractor)
+    visual_model.cuda()
+    visual_model = DDP(visual_model, device_ids=[local_rank])
+
+    if not args.finetune:
+        visual_model.eval()
+    else:
+        visual_model_ckpt_path = os.path.join(os.getcwd(), "{}.pth".format(args.visual_feature_extractor))
+
+    if args.visual_feature_extractor == args.text_feature_extractor:
+        _, tokenizer_text, text_feat_size = initiate_text_module(args.text_feature_extractor)
+        text_model = visual_model  # for clip/coca model
+    else:
+        text_model, tokenizer_text, text_feat_size = initiate_text_module(
+            feature_extractor=args.text_feature_extractor)
+        text_model.cuda()
+        text_model = DDP(text_model, device_ids=[local_rank])
     text_model.eval()
 
-    # Initialize PHGC model
     hsize = 150
-    model = PHGC(vid_embed_size=512, hsize=hsize, rnn_enc=RNNEncoder, text_model=text_model)
+    model = SR(vid_embed_size=vid_feat_size,
+                     hsize=hsize,
+                     rnn_enc=RNNEncoder,
+                     text_model=text_model,
+                     text_feature_extractor=args.text_feature_extractor,
+                     tokenizer=tokenizer_text,
+                     context_encoder=args.context_encoder)
+
+    model.load_state_dict(torch.load('../ckpts/kit_model.pth'))
     model.cuda()
     model = DDP(model, device_ids=[local_rank], find_unused_parameters=True)
-
-    # Optimizers
     all_params = list(model.parameters())
-    optimizer_dp = optim.Adam(all_params, lr=args.lr, weight_decay=args.weight_decay)
+    optimizer_dp = optim.Adam(all_params, lr=args.lr, weight_decay=args.weight_decay) 
     optimizer_map = optim.Adam(all_params, lr=args.lr, weight_decay=args.weight_decay)
 
-    # Loss function
+
     bce_loss = nn.BCELoss()
-
-    # Metrics
-    metrics = MetricCollection([Accuracy(threshold=0.5, dist_sync_on_step=True, task='binary'),
+   
+    train_metrics = MetricCollection([Accuracy(threshold=0.5, dist_sync_on_step=True, task='binary'),
                                 F1Score(threshold=0.5, dist_sync_on_step=True, task='binary')]).cuda()
-    test_metrics = MetricCollection([Accuracy(threshold=0.5, dist_sync_on_step=True, task='binary'),
-                                     F1Score(threshold=0.5, dist_sync_on_step=True, task='binary')]).cuda()
-    train_metrics = metrics.clone(prefix='train_')
-    test_metrics = test_metrics.clone(prefix='test_')
 
-    # Training loop
+    test_metrics_map = MetricCollection([Accuracy(threshold=0.5, dist_sync_on_step=True, task='binary'),
+                                F1Score(threshold=0.5, dist_sync_on_step=True, task='binary')]).cuda()
+    test_metrics_map1 = MetricCollection([Accuracy(threshold=0.5, dist_sync_on_step=True, task='binary'),
+                                F1Score(threshold=0.5, dist_sync_on_step=True, task='binary')]).cuda()
+    
+
+    test_metrics_map = test_metrics_map.clone(prefix='test_map')
+
+    test_metrics_map1 = test_metrics_map1.clone(prefix='test_map')
+
+    
+    train_metrics = train_metrics.clone(prefix='train')
+    
+    
+    sim_prototypes = torch.load('sim_anchors.pt').float().cuda()
+    real_prototypes = torch.load('real_anchors.pt').float().cuda()
+    video_ass=torch.load('video_cluster_gt.pt')
+    sim_prototypes = sim_prototypes.cuda()
+    real_prototypes = real_prototypes.cuda()
     best_acc = 0.
-    for epoch in range(1, args.epochs + 1):
+    test_best_f1 = 0.
+    for epoch in range(1, args.epochs+1):
 
-        # Train for one epoch
-        best_acc = train_epoch(model, train_loader, epoch, previous_best_acc=best_acc)
+        f1s = []
+        # for domain in ['csv','kit','adl']:
+        for domain in [args.dataset]:
+            print("Testing on {} domain".format(domain))
+            log_file.write("Testing on {} domain".format(domain) + '\n')
+            for test_type in ['nt','ns','os']:
+                log_file.write("testing on {}".format(test_type) + '\n')
+                test_acc,test_f1 = test_model(domain,test_type)
+                test_metrics_map.reset()
+                test_metrics_map1.reset()
+                f1s.append(test_f1)
+            log_file.write("\n")
+        log_file.write("\n\n")
 
-        # Test the model on different test types
-        for test_type in ['nt', 'ns', 'nsc', 'abs']:
-            test_acc, test_f1 = test_model(test_type)
-            test_metrics.reset()
+        print("\n")
 
-        log_file.write("\n")
         train_metrics.reset()
 
+        
+
+    cleanup()
     log_file.close()
-    print('Training complete!')
+    untrained_log_file.close()
+    print('Done!')
+
+
+
+
+

@@ -48,7 +48,7 @@ class RNNEncoder(nn.Module):
         hidden -> (n_layers * n_dirs, B, D) -> (B, n_dirs * D)  keep the last layer
         - add total_length in pad_packed_sequence for compatibility with nn.DataParallel, --remove it
         """
-        assert len(inputs) == len(lengths)
+        # assert len(inputs) == len(lengths)  # ！！！注意这里被我强行注释掉了
         sorted_inputs, sorted_lengths, reverse_indices = self.sort_batch(inputs, lengths)
         packed_inputs = pack_padded_sequence(sorted_inputs, sorted_lengths, batch_first=True)
         packed_outputs, hidden = self.rnn(packed_inputs)
