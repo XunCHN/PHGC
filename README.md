@@ -13,6 +13,8 @@
 
 Natural Language-based Egocentric Task Verification(NLETV) aims to equip agents with the ability to determine if operation flows of procedural tasks in egocentric videos align with natural language instructions. In this paper, we proposed a novel approach termed **Procedural Heterogeneous Graph Completion(PHGC)**, which addresses these challenges with heterogeneous graphs representing the logic in rules and operation flows.
 
+*We have released our extended benchmark dataset [EgoCross](https://xunchn.github.io/EgoCross/).*
+
 
 <div align="center">
    <img src="readme_file/CSV-NL-Correct.gif" alt="case 1" width="500">
@@ -75,8 +77,8 @@ python -m torch.distributed.launch train.py
 ## 📄 TODO
 
 - [x] Upload CSV-NL dataset and features
-- [ ] Checkpoint and code release  
-- [ ] Upload the extended benchmark  
+- [x] Checkpoint and code release  
+- [x] Upload the extended benchmark  
 
 ## Acknowledgements
 We do appreciate the code and data provided by [EgoTV](https://github.com/facebookresearch/EgoTV) and [CSV](https://github.com/svip-lab/SVIP-Sequence-VerIfication-for-Procedures-in-Videos/tree/main/Datasets). 
